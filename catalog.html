@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Седона</title>
+  </head>
+  <body>
+  <header>
+    <nav>
+      <a>
+        <img src="https://via.placeholder.com/150x100" alt="">
+      </a>
+      <ul>
+       <li><a href="#">Информация</a></li>
+       <li><a href="#">Фото и видео</a></li>
+       <li><a href="#">Карта штата</a></li>
+       <li><a>Гостиницы</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>Подбор жилья</h1>
+    <section>
+      <h2>Фильтр</h2>
+      <form method="get" action="https://echo.htmlacademy.ru">
+        <fieldset>
+          <legend>Инфраструктура:</legend>
+          <ul>
+            <li>
+              <input type="checkbox" name="pool" id="filter-pool" checked>
+              <label for="filter-pool">Бассейн</label>
+            </li>
+            <li>
+              <input type="checkbox" name="parking" id="filter-parking">
+              <label for="filter-parking">Парковка</label>
+            </li>
+            <li>
+              <input type="checkbox" name="wi-fi" id="filter-wi-fi">
+              <label for="filter-wi-fi">WI-FI</label>
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset>
+          <legend>Тип жилья:</legend>
+          <ul>
+            <li>
+              <input type="checkbox" name="hotel" id="filter-hotel" checked>
+              <label for="filter-hotel">Отель</label>
+            </li>
+            <li>
+              <input type="checkbox" name="motel" id="filter-motel" checked>
+              <label for="filter-motel">Мотель</label>
+            </li>
+            <li>
+              <input type="checkbox" name="apartments" id="filter-apartments" checked>
+              <label for="filter-apartments">Апартаменты</label>
+            </li>
+          </ul>
+        </fieldset>
+        <p>Стоимость в сутки (р)</p>
+        <input type="range" min="0" max="3000">
+        <button type="submit">Показать</button>
+      </form>
+    </section>
+    <section>
+      <h2>найденные варианты жилья</h2>
+      <p>Найдено:3</p>
+      <p>Сортировка</p>
+      <ul>
+        <li><a>По цене</a></li>
+        <li><a href="#">По типу</a></li>
+        <li><a href="#">По рейтингу</a></li>
+      </ul>
+      <button type="button" disabled>Вверх</Button>
+      <button type="button">Вниз</Button>
+      <ul>
+        <li>
+          <a href="#">
+            <img src="https://via.placeholder.com/150x100" alt="">
+          </a>
+          <a href="#">
+            <h3>Amara Resort & Spa</h3>
+          </a>
+          <p>Гостиница от 4000р</p>
+          <p>
+            <button type="button">Подробнее</Button>
+            <button type="button">Забронировать</Button>
+          </p>
+          <p>Рейтинг 8,5</p>
+        </li>
+        <li>
+          <a href="#">
+            <img src="https://via.placeholder.com/150x100" alt="">
+          </a>
+          <a href="#">
+            <h3>Desert Quail Inn</h3>
+          </a>
+          <p>Мотель от 3000р</p>
+          <p>
+            <button type="button">Подробнее</Button>
+            <button type="button">Забронировать</Button>
+          </p>
+          <p>Рейтинг 8,9</p>
+        </li>
+        <li>
+          <a href="#">
+            <img src="https://via.placeholder.com/150x100" alt="">
+          </a>
+          <a href="#">
+            <h3>Villas at Poco Diablo</h3>
+          </a>
+          <p>Аппартаменты от 2000р</p>
+          <p>
+            <button type="button">Подробнее</Button>
+            <button type="button">Забронировать</Button>
+          </p>
+          <p>Рейтинг 9,2</p>
+        </li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <section>
+      <h2>Контакты</h2>
+      <p>#visitsedona<br>
+        <a href="tel:+74956660166">тел: +7(495) 666-01-66</a>
+      </p>
+    </section>
+    <section>
+      <h2> Социальные сети</h2>
+      <ul>
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Youtube</a></li>
+      </ul>
+    </section>
+    <p>
+      website by:
+      <a href="https://htmlacademy.ru/">
+        <img src="https://via.placeholder.com/150x100" alt="">
+      </a>
+    </p>
+  </footer>
+  </body>
+</html>
