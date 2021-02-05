@@ -1,6 +1,6 @@
 # Личный проект «Седона»
 
-* Студент: [Неопознанный енот](https://up.htmlacademy.ru/htmlcss/30/user/1572625).
+* Студент: [Анна Максимова](https://up.htmlacademy.ru/htmlcss/30/user/1572625).
 * Наставник: [Анастасия Полозова](https://htmlacademy.ru/profile/id258631).
 
 ---
