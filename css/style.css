@@ -85,6 +85,10 @@ img {
   color: var(--basic-black);
 }
 
+.navigation-selected-link {
+  color: var(--basic-light-brown);
+}
+
 .site-navigation-link:hover,
 .site-navigation-link:focus {
   color: var(--basic-sky-blue);
@@ -151,10 +155,111 @@ img {
   line-height: 24px;
 }
 
+/* Catalog */
+
+.filters {
+  color: var(--basic-white);
+  background-color: var(--basic-sky-blue);
+}
+
+.filter legend {
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 700;
+}
+
+.filter-option {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+}
+
+.filter-list {
+  list-style: none;
+}
+
+.sorting {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+  color: var(--basic-black);
+}
+
+.sorting-search {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.sorting-list {
+  list-style: none;
+}
+
+.sorting-selected-link {
+  color: var(--basic-sky-blue);
+}
+
+.sorting-link {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: var(--basic-sky-blue);
+  color: var(--basic-black);
+}
+
+.hotel-list {
+  list-style: none;
+
+}
+
+.hotel-link {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+  color: var(--basic-black);
+}
+
+.housing-description {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  color: var(--basic-dark-grey);
+}
+
+.rating {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  background-color: var(--basic-light-grey);
+  color: var(--basic-asphalt);
+}
+
+.list-button {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 700;
+  font-family: "PT Sans", "Arial", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--basic-white);
+  vertical-align: middle;
+  background-color: var(--basic-sky-blue);
+  border: none;
+  padding-left: 18px;
+  padding-right: 16px;
+}
+
+.booking-button {
+  background-color: var(--basic-light-brown);
+  padding-left: 16px;
+  padding-right: 17px;
+}
+
+/* Footer */
 .contacts {
   font-weight: 700;
   font-size: 21px;
   line-height: 26px;
+  color: var(--basic-black)
 }
 
 .contacts-phone {
