@@ -44,7 +44,7 @@
 /* Global */
 
 body {
-  min-width: 1200px;
+  min-width: 1280px;
   margin: 0;
   padding: 0;
   font-family: "PT Sans", "Arial", sans-serif;
@@ -80,37 +80,36 @@ img {
 /* Main header */
 
 .main-header {
-  margin-bottom: 70px;
-  outline: 5px solid rgba(0, 255, 0, 0.7);
-  outline-offset: -5px;
+  margin-bottom: 62px;
+  width: 1200px;
+  background-color: var(--basic-white);
+  display: grid;
+  grid-template-columns: 1fr min-content;
+  margin: 0 auto;
+  padding: 0 10px;
 }
 
 /* Logo */
 
 .main-header-logo {
-  order: 0;
   justify-self: center;
-  outline-offset: -5px;
 }
 
 /* Navigation */
 
 .main-navigation {
+  display: grid;
   font-size: 14px;
   line-height: 26px;
   font-weight: 700;
   color: var(--basic-black);
   background-color: var(--basic-white);
-  display: grid;
 }
 
 .site-navigation {
   list-style: none;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  background-color: var(--basic-white);
-  margin-right: 73px;
-
+  margin: 0;
+  padding: 0;
 }
 
 .site-navigation-link {
@@ -126,8 +125,25 @@ img {
   color: var(--basic-sky-blue);
 }
 
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+
+}
+
 .features {
   text-align: center;
+}
+
+.description-1 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.description-2 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
 }
 
 .features-head {
@@ -138,6 +154,8 @@ img {
 
 .features-list {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .feature-item {
@@ -156,12 +174,15 @@ img {
   background-color: var(--basic-sky-blue);
 }
 
+
 .feature-item-special-head {
   color: var(--basic-white);
 }
 
 .feature-item-extra {
   background-color: var(--basic-moderate-grey);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .recomendation-list {
@@ -170,6 +191,8 @@ img {
   font-size: 14px;
   line-height: 21px;
   background-color: var(--basic-white);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .recomendation-item h3 {
@@ -297,6 +320,7 @@ img {
 
 .contacts-phone {
   color: var(--basic-black);
+  width: 440Px;
 }
 
 .footer-social {
@@ -306,3 +330,15 @@ img {
 .footer-social-list {
   list-style: none;
 }
+
+.main-footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer-copyright {
+  max-width: 400px;
+  margin: 0;
+  justify-self: end;
+}
+
