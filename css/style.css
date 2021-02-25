@@ -136,13 +136,11 @@ img {
 }
 
 .description-1 {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
+  display: flex;
 }
 
 .description-2 {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
+  display: flex;
 }
 
 .features-head {
