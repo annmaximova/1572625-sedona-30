@@ -215,13 +215,22 @@ img {
 }
 
 .search {
-  display: grid;
-  grid-template-columns: 1fr 1fr 2fr;
+  display: flex;
+  /*display: grid;
+  grid-template-columns: 1fr 1fr 2fr;*/
 }
 
-.price {
-  justify-self: end;
+.search-block {
+  border: none;
 }
+
+.search-block2 {
+  flex-grow: 1;
+}
+
+/*.price {
+  justify-self: end;
+} */
 
 
 .filter-type {
@@ -245,8 +254,9 @@ img {
   line-height: 18px;
   font-weight: 400;
   color: var(--basic-black);
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr min-content min-content;
+  display: flex;
+  /*display: grid;
+  grid-template-columns: 1fr 1fr 1fr min-content min-content;*/
 }
 
 .sorting-search {
@@ -257,6 +267,7 @@ img {
 
 .sorting-list {
   list-style: none;
+  flex-grow: 1;
 }
 
 .sorting-selected-link {

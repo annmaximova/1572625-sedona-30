@@ -32,8 +32,8 @@
       <h2>Фильтр</h2>
       <form class="filter" method="get" action="https://echo.htmlacademy.ru">
         <div class="search">
-          <fieldset>
-            <legend>Инфраструктура:</legend>
+          <fieldset class="search-block search-block1">
+            <legend class="filter-type">Инфраструктура:</legend>
             <ul class="filter-list">
               <li class="filter-option filter-checkbox">
                 <input class="filter-input-checkbox filter-input" type="checkbox" name="pool" id="filter-pool" checked>
@@ -49,7 +49,7 @@
               </li>
             </ul>
           </fieldset>
-          <fieldset>
+          <fieldset class="search-block search-block2">
             <legend class="filter-type">Тип жилья:</legend>
             <ul class="filter-list">
               <li class="filter-option filter-radio">
@@ -84,8 +84,10 @@
           <li><a class="sorting-link" href="#">По типу</a></li>
           <li><a class="sorting-link" href="#">По рейтингу</a></li>
         </ul>
-        <button class="sorting-button-up" type="button" disabled>Вверх</Button>
-        <button class="sorting-button-down" type="button">Вниз</Button>
+        <div>
+          <button class="sorting-button-up" type="button" disabled>Вверх</Button>
+          <button class="sorting-button-down" type="button">Вниз</Button>
+        </div>
       </div>
       <ul class="hotel-list">
         <li class="hotel-item">
@@ -151,7 +153,7 @@
       </ul>
     </section>
   </main>
-  <footer class="main-footer">
+  <footer class="main-footer container">
     <section class="contacts">
       <h2>Контакты</h2>
       <p>#visitsedona<br>
@@ -166,7 +168,7 @@
         <li><a class="social-button" href="#">Youtube</a></li>
       </ul>
     </section>
-    <p>
+    <p class="footer-copyright">
       website by:
       <a href="https://htmlacademy.ru/">
         <img src="img/logo-htmlacademy.svg" width="115" height="41" alt="логотип html академии">
