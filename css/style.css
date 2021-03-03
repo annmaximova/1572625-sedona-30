@@ -110,6 +110,8 @@ img {
   list-style: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 .site-navigation-link {
@@ -137,16 +139,33 @@ img {
 
 .description-1 {
   display: flex;
+  margin-top: 51px;
 }
 
 .description-2 {
-  display: flex;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.description-1-text {
+  padding: 40px 50px;
+}
+
+.description-2-text {
+  padding: 40px 50px;
+  order: 1;
+}
+
+.feature {
+  padding-top: 47px;
+  padding-bottom: 54px;
 }
 
 .features-head {
   font-size: 21px;
   line-height: 26px;
   font-weight: 700;
+  margin-bottom: 16.5px;
 }
 
 .features-list {
@@ -155,10 +174,12 @@ img {
   padding: 0;
 }
 
-.feature-item {
+.feature-item-1 {
   font-size: 14px;
   line-height: 21px;
   text-align: center;
+  padding-top: 47px;
+  padding-bottom: 54px;
 }
 
 .feature-item h3 {
@@ -180,6 +201,7 @@ img {
   background-color: var(--basic-moderate-grey);
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  list-style: none;
 }
 
 .recomendation-list {
@@ -190,11 +212,18 @@ img {
   background-color: var(--basic-white);
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  height: 330px;
 }
 
 .recomendation-item h3 {
   font: size 21px;
   line-height: 21px;
+}
+
+.recomendation-item {
+  padding-top: 60px;
+  padding-bottom: 82px;
+  text-align: center;
 }
 
 .search-for-housing {
@@ -363,8 +392,22 @@ img {
 
 .footer-social-list {
   list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 141px;
+  margin: 0 auto;
+  padding: 0;
 }
 
+.social-button:hover,
+.social-button:focus {
+  background-color: var(--basic-dark-blue);
+}
+
+.social-button:active {
+  background-color: var(--basic-extra-blue);
+}
 .main-footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -376,3 +419,25 @@ img {
   justify-self: end;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.social-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 46px;
+  height: 48px;
+  background-color: var(--basic-blue);
+  color: inherit;
+}
