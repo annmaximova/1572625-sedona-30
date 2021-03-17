@@ -1188,6 +1188,16 @@ border: none;
   color: rgba(255, 255, 255, 0.3);
 }
 
+.modal {
+  display: none;
+}
+
+.modal-show {
+  display: block;
+  animation: bounce 1s;
+}
+
+
 /* Footer */
 .contacts {
   font-weight: 700;
@@ -1320,3 +1330,15 @@ border: none;
   bottom: 29px;
   left: 68px;
 }
+
+/* Animations */
+
+@keyframes bounce {
+  0% {
+  transform: translateY(300px);
+  }
+
+  100% {
+  transform: translateY(0);
+  }
+  }
