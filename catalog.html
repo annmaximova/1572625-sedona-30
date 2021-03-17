@@ -107,7 +107,7 @@
                 <div class="toggle toggle-min" tabindex="0"></div>
                 <div class="toggle toggle-max" tabindex="0"></div>
               </div>
-              <button class="show-button" type="button">Показать</Button>
+              <button class="show-button" type="button" value= "Показать">Показать</Button>
             </div>
           </fieldset>
         </fieldset>
@@ -125,12 +125,12 @@
           <li><a class="sorting-link" href="#">По рейтингу</a></li>
         </ul>
         <div class="up-down">
-          <button class="sorting-button-up" type="button" disabled>
+          <button class="sorting-button-up" type="button" value="Вверх" disabled>
             <svg aria-hidden="true" focusable="false" width="11" height="10" viewBox="0 0 11 10" fill="##FFFFFF" xmlns="http://www.w3.org/2000/svg">
               <path d="M5.5 0L0 10H11L5.5 0Z" fill="#CACACA"/>
               </svg>
           </button>
-          <button class="sorting-button-down" type="button">
+          <button class="sorting-button-down" type="button" value="Вниз">
             <svg aria-hidden="true" focusable="false" width="11" height="10" viewBox="0 0 11 10" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M5.5 10L0 0H11" fill="#81B3D2"/>
             </svg>
@@ -149,8 +149,8 @@
               </a>
               <p class="housing-description hotel-description">Гостиница <span class="min-hotel">от 4000 Р.</span></p>
               <p>
-                <button class="list-button hotel-button more" type="button">Подробнее</Button>
-                <button class="list-button booking-button hotel-button" type="button">Забронировать</Button>
+                <button class="list-button hotel-button more" type="button" value="Подробнее">Подробнее</Button>
+                <button class="list-button booking-button hotel-button" type="button" value="Забронировать">Забронировать</Button>
               </p>
             </div>
           </div>
@@ -189,8 +189,8 @@
             </a>
             <p class="housing-description">Мотель <span class="min-motel">от 3000 Р.</span></p>
             <p>
-              <button class="list-button motel-button more" type="button">Подробнее</Button>
-              <button class="list-button booking-button" type="button">Забронировать</Button>
+              <button class="list-button motel-button more" type="button" value="Подробнее">Подробнее</Button>
+              <button class="list-button booking-button" type="button" value="Забронировать">Забронировать</Button>
             </p>
             </div>
           </div>
@@ -222,8 +222,8 @@
             </a>
             <p class="housing-description">Апартаменты <span class="min-apart">от 2000 Р.</span></p>
             <p>
-              <button class="list-button apartments-button more" type="button">Подробнее</Button>
-              <button class="list-button booking-button" type="button">Забронировать</Button>
+              <button class="list-button apartments-button more" type="button" value="Подробнее">Подробнее</Button>
+              <button class="list-button booking-button" type="button" value="Забронировать">Забронировать</Button>
             </p>
           </div>
           </div>
@@ -253,7 +253,7 @@
       <h2 class="visually-hidden">Социальные сети</h2>
       <ul class="footer-social-list">
         <li>
-          <a class="social-button" href="#">
+          <a class="social-button" href="#" aria-label="Twitter">
             <span class="visually-hidden">Twitter</span>
             <svg aria-hidden="true" focusable="false" width="17" height="16" viewBox="0 0 17 16" fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg">
             <path d="M10.95 1.14403C12.635 0.648028 13.934 1.41403 14.527 2.32303C15.2 2.09203 15.858 1.84203 16.538 1.61503C16.5249 2.30139 16.2117 2.94755 15.681 3.38303C16.366 3.55303 16.985 2.89203 16.985 2.89203C16.816 3.89203 15.979 4.68003 15.422 4.91603C15.191 11.666 12.247 16.133 5.34498 15.998H4.89898C4.48898 15.998 0.734977 15.538 0.000976562 14.111C2.27198 14.307 3.89398 13.689 4.69398 12.934C3.73398 12.634 2.01498 12.457 1.71498 9.98403C2.06398 10.09 2.27898 10.212 2.90498 10.103C1.70498 9.24703 0.373977 8.53003 0.447977 6.33003C0.732977 6.65803 1.51498 6.86603 1.78798 6.80203C1.08498 6.56103 -0.182023 3.44203 0.893977 1.85003C2.71198 3.70403 4.62898 5.45603 8.04598 5.62303C8.25398 3.33003 9.18298 1.79303 10.95 1.14403Z" fill="white"/>
@@ -261,7 +261,7 @@
           </a>
         </li>
         <li>
-          <a class="social-button" href="#">
+          <a class="social-button" href="#" aria-label="Facebook">
             <span class="visually-hidden">Facebook</span>
             <svg aria-hidden="true" focusable="false" width="12" height="22" viewBox="0 0 12 22" fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg">
             <path d="M12 4V0H8C5.79086 0 4 1.79086 4 4V8H0V12H4V22H8V12H12V8H8V4H12Z" fill="white"/>
@@ -269,7 +269,7 @@
           </a>
         </li>
         <li>
-          <a class="social-button" href="#">
+          <a class="social-button" href="#" aria-label="Youtube">
             <span class="visually-hidden">Youtube</span>
             <svg aria-hidden="true" focusable="false" width="20" height="16" viewBox="0 0 20 16" fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" clip-rule="evenodd" d="M3 0H17C18.65 0 20 1.35 20 3V13C20 14.65 18.65 16 17 16H3C1.35 16 0 14.65 0 13V3C0 1.35 1.35 0 3 0ZM6.027 4.002V11.998L15.014 8L6.027 4.002Z" fill="white"/>

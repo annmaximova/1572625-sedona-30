@@ -13,7 +13,7 @@ try {
 storage = localStorage.getItem("amount");
 } catch (err) {
 isStorageSupport = false;
-}
+ }
 
 bookingLink.addEventListener("click", function (evt) {
 evt.preventDefault();
@@ -45,5 +45,6 @@ bookingPopup.classList.remove("modal-show");
 }
 }
 });
+
 
 

@@ -193,6 +193,8 @@ img {
 .feature-item-special-head {
   position: relative;
   bottom: 18px;
+  font-size:21px;
+  line-height: 21px;
 }
 
 .number-1 {
@@ -431,7 +433,7 @@ img {
   font-weight: bold;
   color: var(--basic-white);
   position: relative;
-  top: 10px;
+  top: 30px;
   }
 
 .booking-link:hover,
@@ -457,6 +459,7 @@ color: var(--special-white);
   width: 1200px;
   height: 473px;
   position: relative;
+  top: 20px;
   }
 
   .map {
@@ -1213,6 +1216,11 @@ border: none;
   left: 37px;
 }
 
+.contacts {
+  position: relative;
+  left: 37px;
+}
+
 .contacts-phone {
   color: var(--basic-black);
   width: 440px;
@@ -1252,6 +1260,7 @@ border: none;
   width: 1200px;
   height: 120px;
   position: relative;
+  top: 20px;
   background-color: var(--footer-white);
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -1262,8 +1271,8 @@ border: none;
   margin: 0;
   justify-self: end;
   position: relative;
-  top: 35px;
-  right: 139px;
+  top:23px;
+  right: 142px;
   font-weight: 400;
   font-size: 14px;
   line-height: 26px;
@@ -1283,6 +1292,12 @@ border: none;
 
 .copyright-link:active path {
   fill: var(--basic-light-purple);
+}
+
+.copyright-link {
+  position: relative;
+  top: 12px;
+  left: 5px;
 }
 
 .visually-hidden {
