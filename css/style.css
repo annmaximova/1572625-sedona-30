@@ -48,7 +48,7 @@
 /* Global */
 
 body {
-  min-width: 1280px;
+  min-width: 1200px;
   margin: 0;
   padding: 0;
   font-family: "PT Sans", "Arial", sans-serif;
@@ -97,7 +97,8 @@ img {
 
 .main-header-logo {
   position: absolute;
-  left: 605px;
+  left: 532px;
+  z-index: 1;
 }
 
 /* Navigation */
@@ -109,6 +110,7 @@ img {
   font-weight: 700;
   color: var(--basic-black);
   background-color: var(--basic-white);
+  position: relative;
 
 }
 
@@ -159,6 +161,13 @@ img {
   2px 0 5px -3px #34495e;
 }
 
+.background-index {
+  width: 1200px;
+  height: 509px;
+  background-image: url(../img/background-photo.jpg);
+  position: relative;
+}
+
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -167,13 +176,13 @@ img {
 
 .welcome-text {
   position: absolute;
-  left: 446px;
-  top: 132px;
+  left: 370px;
+  top: 77px;
 }
 
 .frame {
   position: absolute;
-  top: 508px;
+  top: 453px;
 }
 
 .features {
@@ -244,7 +253,9 @@ img {
   font-size: 21px;
   line-height: 26px;
   font-weight: 700;
-  margin-bottom: 67px;
+  margin-bottom: 75px;
+  position: relative;
+  top: 20px;
 }
 
 .features-list {
@@ -257,8 +268,6 @@ img {
   font-size: 14px;
   line-height: 21px;
   text-align: center;
-  padding-top: 47px;
-  padding-bottom: 54px;
 }
 
 .feature h3 {
@@ -474,7 +483,7 @@ color: var(--special-white);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding-top: 42px;
+  padding-top: 33px;
 
   }
 
@@ -749,7 +758,7 @@ color: var(--special-white);
 .search-block2 {
   flex-grow: 1;
   position: relative;
-  right: 29px;
+  right: 40px;
   bottom: 10px;
 }
 
@@ -773,13 +782,42 @@ color: var(--special-white);
 
 }
 
+.filter-input-checkbox {
+  display: none;
+}
+
+.filter-input-radio {
+  display: none;
+}
+
+.filter-option-label:before {
+  content: url(../img/checkbox-square.svg);
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  width: 23px;
+  height: 23px;
+  padding-right: 15px;
+  background-repeat: no-repeat;
+  border: none;
+  vertical-align: middle;
+}
+
+input:checked + .filter-option-label:before {
+  content: url(../img/checkbox-on.svg);
+}
+
+input:disabled + .filter-option-label:before {
+  content: url(../img/checkbox-off-disable.svg);
+}
+
 .filter-type {
   font-size: 16px;
   line-height: 21px;
   font-weight: 700;
   position: relative;
   top: 9px;
-  left: 40px;
+  left: 38px;
 }
 
 .filter-option {
@@ -793,6 +831,20 @@ color: var(--special-white);
   position: relative;
   left: 11px;
   bottom: 7px;
+}
+
+.filter-radio {
+  position: relative;
+  top: 8px;
+  right: 8px;
+  padding-bottom: 8px;
+}
+
+.filter-checkbox {
+  position: relative;
+  top: 8px;
+  right: 10px;
+  padding-bottom: 8px;
 }
 
 .filter-list {
