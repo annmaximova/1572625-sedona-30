@@ -758,7 +758,7 @@ color: var(--special-white);
 .search-block2 {
   flex-grow: 1;
   position: relative;
-  right: 40px;
+  right: 35px;
   bottom: 10px;
 }
 
