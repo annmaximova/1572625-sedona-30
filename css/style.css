@@ -782,14 +782,6 @@ color: var(--special-white);
 
 }
 
-.filter-input-checkbox {
-  display: none;
-}
-
-.filter-input-radio {
-  display: none;
-}
-
 .filter-option-label:before {
   content: url(../img/checkbox-square.svg);
   display: inline-block;
@@ -1449,4 +1441,4 @@ border: none;
   100% {
   transform: translateY(0);
   }
-  }
+
